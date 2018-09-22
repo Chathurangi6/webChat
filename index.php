@@ -13,4 +13,5 @@
 				<label><b>Password</b></label>
 				<input type="password" name="pass" placeholder="password"><br><br>
 				<button style="background-color:#5B70F7;color:white" type="submit"><b>Login</b></button>
+			</form>
 </body>
