@@ -15,11 +15,11 @@
 				<input type="text" name="uname" placeholder="User name">
 				</div>
 			</div>
-			<div class="form-group">
+			
 				<label class="control-label col-sm-2"><b>Password</b></label>
 				<div class="col-sm-10">
 				<input type="password" name="pass" placeholder="password">
-			</div>
+			
 		</div>
 				<button style="background-color:#5B70F7;color:white" type="submit"><b>Login</b></button>
 			</form>

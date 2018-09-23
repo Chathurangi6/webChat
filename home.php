@@ -1,3 +1,7 @@
+<?php
+session_start();
+?>
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -6,8 +10,24 @@
 </head>
 <body>
 <div id="main">
-	<h1 style="background-color:#5B70F7;color:white;">-online</h1>
+	<h1 style="background-color:#5B70F7;color:white;"><?php echo $_SESSION['name'] ?>-online</h1>
 	<div class="output">
+		<?php
+		$sql="SELECT * FROM posts";
+		$result=$conn->query($sql);
+		if($result->num_ros > 0){
+			while($row=$result->fetch_assoc()){
+				echo "".$row["name"]." "."::".$row["msg"]."--".$row["date"]."<br>";
+				echo "<br>";
+
+			}
+
+		}
+		else{
+			echo " 0 results";
+		}
+		$conn->close();
+		?>
 	</div>
 
 	<form method="post" action="send.php">
