@@ -12,13 +12,13 @@
 				<div class="form-group">
 				<label class="control-label col-sm-2"><b>Username</b></label>
 				<div class="col-sm-10">
-				<input type="text" name="uname" placeholder="User name">
+				<input type="text" name="uname" placeholder="User name"><br><br>
 				</div>
 			</div>
 			
 				<label class="control-label col-sm-2"><b>Password</b></label>
 				<div class="col-sm-10">
-				<input type="password" name="pass" placeholder="password">
+				<input type="password" name="pass" placeholder="password"><br><br>
 			
 		</div>
 				<button style="background-color:#5B70F7;color:white" type="submit"><b>Login</b></button>
@@ -36,6 +36,7 @@
 				<div class="col-sm-10">
 				<input type="password" name="pass" placeholder="password"><br><br>
 				<button style="background-color:#5B70F7;color:white" type="submit"><b>Signup</b></button>
+
 			</form>
 
 		</div>
